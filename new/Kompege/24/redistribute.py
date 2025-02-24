@@ -23,7 +23,7 @@ def redistribute_files(directory):
                 task_number = match.group(2)  # Номер задачи
 
                 # Создаем имя подкаталога на основе номера задачи
-                subdirectory_name = f"Task_{task_number}"
+                subdirectory_name = f"{task_number}"
                 subdirectory_path = os.path.join(directory, subdirectory_name)
 
                 # Создаем подкаталог, если он еще не существует
