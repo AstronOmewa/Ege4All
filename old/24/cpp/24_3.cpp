@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    fstream f("D://egeAll/24/cpp/24_58329.txt");
+    fstream f("D://Ege4All/old/24/cpp/24_58329.txt");
     string s;
     
     f>>s;

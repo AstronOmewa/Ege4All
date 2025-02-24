@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    fstream f("D://egeAll/24/cpp/1_24.txt");
+    fstream f("D://Ege4All/old/24/cpp/1_24.txt");
 
     string s;
 

@@ -1,0 +1,6 @@
+{
+    "python.REPL.enableREPLSmartSend": false,
+    "files.associations": {
+        "iosfwd": "cpp"
+    }
+}

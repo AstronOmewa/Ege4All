@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    ifstream f("D://egeAll/24/cpp/24.txt");
+    ifstream f("D:\\Ege4All\\old\\24\\cpp\\24.txt");
     
     string s;
     
