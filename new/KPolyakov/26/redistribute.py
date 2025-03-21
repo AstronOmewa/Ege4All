@@ -17,7 +17,7 @@ def redistribute_files(directory):
         # Проверяем, что это файл, а не подкаталог
         if os.path.isfile(file_path):
             # Используем регулярное выражение для извлечения номера задачи
-            match = re.match(r'^(S_|Q_|24.)(\d+)', filename)
+            match = re.match(r'^(S_|Q_|\d{2}.)(\d+)', filename)
             if match:
                 task_type = match.group(1)  # Тип задачи (S, Q, N)
                 task_number = match.group(2)  # Номер задачи
