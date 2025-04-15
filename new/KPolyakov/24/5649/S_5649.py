@@ -5,7 +5,7 @@ from fnmatch import fnmatch
 
 s = open('24.5649.txt').readline()
 
-s = s.replace('FF', ' ').replace(' F',' ')
+s = s.replace('FF', ' ').replace(' F', '')
 a = [x for x in s.split() if fnmatch(x, '44??78???3') and x.isdigit()]
 
 m = str(max(map(int, a)))
