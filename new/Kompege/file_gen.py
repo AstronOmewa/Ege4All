@@ -11,5 +11,3 @@ s.write("import os\n\
 os.chdir(os.path.dirname(os.path.abspath(__file__)))\n")
 if names=='1': dat = open(f'{folder}/{folder}.{num}.txt','w')
 elif (names!='0'): dat = [open(f'{folder}/{folder}.{num}_{name}.txt','w') for name in names.split()]
-
-

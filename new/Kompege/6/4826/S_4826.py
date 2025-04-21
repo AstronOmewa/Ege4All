@@ -24,7 +24,7 @@ dick.up()
 cumvas = dick.getcanvas()
 c = 0
 for x,y in cum(range(-200,200),repeat = 2):
-    if cumvas.find_overlapping(x*z, y*z, x*z, y*z) == (5,):
+    if cumvas.find_overlapping(x*z, y*z, x*z, y*z) == (5, ):
         c+=1
 print('zov '*c, c)
 dick.exitonclick()
